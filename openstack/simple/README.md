@@ -12,6 +12,9 @@ terraform.
 # Step(s)
 
 ```
+# include the OpenStack credentials in your shell environment
+$ source <path/to/openrc-file>
+
 # create ssh terraform ssh-keys, with no password protection of the private key
 $ ssh-keygen -f terraform
 
