@@ -3,11 +3,11 @@ variable "project_network_cidr" {
 }
 
 variable "image_source_url" {
-  default = "https://github.com/rancher/os/releases/download/v1.1.0-rc3/rancheros-openstack.img"
+  default = "https://github.com/rancher/os/releases/download/v1.1.0/rancheros-openstack.img"
 }
 
 variable "image" {
-  default = "rancheros-1.1.0-rc3"
+  default = "rancheros-v1.1.0"
 }
 
 variable "flavor" {
